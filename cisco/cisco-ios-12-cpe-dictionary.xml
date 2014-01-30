@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpe-list xmlns="http://cpe.mitre.org/dictionary/2.0" 
+    xmlns:meta="http://scap.nist.gov/schema/cpe-dictionary-metadata/0.2" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://scap.nist.gov/schema/cpe-dictionary-metadata/0.2 http://nvd.nist.gov/schema/cpe-dictionary-metadata_0.2.xsd 
+    http://cpe.mitre.org/dictionary/2.0 http://cpe.mitre.org/files/cpe-dictionary_2.2.xsd">
+    <generator>
+        <schema_version>2.1</schema_version>
+        <timestamp>2014-01-29T14:51:00</timestamp>
+    </generator>
+    <cpe-item name="cpe:/o:cisco:ios_12">
+        <title>Cisco IOS 12</title>
+        <notes>
+            <note>Test CPE list</note>
+        </notes>
+    </cpe-item>
+</cpe-list>
