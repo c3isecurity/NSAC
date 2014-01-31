@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oval_definitions xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:oval="http://oval.mitre.org/XMLSchema/oval-common-5"
+  xmlns:oval-def="http://oval.mitre.org/XMLSchema/oval-definitions-5"
+  xmlns:ios-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#ios"
+  xmlns:x-ios-acl="http://oval.mitre.org/XMLSchema/x-oval-defintions-5"
+  xmlns:ind-def="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent"
+  xsi:schemaLocation="http://oval.mitre.org/XMLSchema/oval-definitions-5 oval-definitions-schema.xsd 
+  http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd
+  http://oval.mitre.org/XMLSchema/oval-definitions-5#ios ios-definitions-schema.xsd
+  http://oval.mitre.org/XMLSchema/x-oval-defintions-5#x-ios-acl x-ios-acl.xsd">
+  
+  <generator>
+    <oval:product_name>SAMPLE IOS OVAL DEFINTION</oval:product_name>
+    <oval:product_version>1</oval:product_version>
+    <oval:schema_version>5.11</oval:schema_version>
+    <oval:timestamp>2014-01-30T16:58:35</oval:timestamp>
+  </generator>
+  
+  <definitions>
+    <definition id="oval:org.mitre.oval:def:10" version="1" class="compliance">
+      <metadata>
+        <title>Sample Cisco IOS ACL Defintion</title>
+        <description>This is test sample definition expressed using the Cisco IOS ACL test.</description>
+      </metadata>
+      <notes>
+        <note>This is based on the experimental schema housed in the OVAL sandbox</note>
+      </notes>
+      <criteria operator="AND" comment="cisco acl ios test">
+        <criterion test_ref="oval:org.mitre.oval:tst:10"/>
+      </criteria>
+    </definition>
+  </definitions>
+  
+  <tests>
+    <acl_test xmlns="http://oval.mitre.org/XMLSchema/x-ios-acl" id="oval:org.mitre.oval:tst:10" version="1" check="all" comment="ios acl test">
+      <object object_ref="oval:org.mitre.oval:obj:1"/>
+      <state state_ref="oval:mitre.org.oval:ste:1"/>
+    </acl_test>
+  </tests>
+  
+  <objects>
+    <acl_object xmlns="http://oval.mitre.org/XMLSchema/x-ios-acl" id="oval:org.mitre.oval:obj:10" version="1">
+        <name>115</name>
+        <ip_version>IPV4</ip_version>
+    </acl_object>
+  </objects>
+  
+  <states>
+    <acl_state xmlns="http://oval.mitre.org/XMLSchema/x-ios-acl" id="oval:org.mitre.oval:ste:10" version="1">
+      <name>115</name>
+      <ip_version>IPV4</ip_version>
+      <interface_direction>IN</interface_direction>
+    </acl_state>
+  </states>
+
+</oval_definitions>
