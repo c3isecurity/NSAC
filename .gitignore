@@ -4,4 +4,14 @@ oval-common-schema.xsd
 oval-definitions-schema.xsd
 oval-system-characteristics-schema.xsd
 x-asa-acl.xsd
+x-asa-generic.xsd
+x-asa-interface.xsd
+x-asa-mpf.xsd
+x-asa-snmp.xsd
 x-ios-acl.xsd
+x-ios-interface511.xsd
+x-ios-routing.xsd
+x-ios-section.xsd
+x-ios-snmp.xsd
+x-iosxe-defintions.xsd
+x-iosxe-system-characteristics-schema.xsd
