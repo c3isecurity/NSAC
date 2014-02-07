@@ -10,9 +10,9 @@
   http://oval.mitre.org/XMLSchema/oval-common-5 oval-common-schema.xsd
   http://oval.mitre.org/XMLSchema/oval-definitions-5#ios ios-definitions-schema.xsd
   http://oval.mitre.org/XMLSchema/x-oval-defintions-5#x-ios-acl x-ios-acl.xsd">
-  
+
   <generator>
-    <oval:product_name>SAMPLE IOS OVAL DEFINTION</oval:product_name>
+    <oval:product_name>Made by hand</oval:product_name>
     <oval:product_version>1</oval:product_version>
     <oval:schema_version>5.11</oval:schema_version>
     <oval:timestamp>2014-01-30T16:58:35</oval:timestamp>
@@ -22,10 +22,15 @@
     <definition id="oval:org.mitre.oval:def:10" version="1" class="compliance">
       <metadata>
         <title>Sample Cisco IOS ACL Defintion</title>
-        <description>This is test sample definition expressed using the Cisco IOS ACL test.</description>
+        <description>This is a sample definition expressed using the Cisco IOS ACL test.</description>
+        <affected family="ios">
+          <platform>Cisco IOS 12</platform>
+        </affected>
+        <reference ref_url="https://github.com/OVALProject/Sandbox/blob/master/x-ios-acl.xsd"/>
+        <description> </description>
       </metadata>
       <notes>
-        <note>This is based on the experimental schema housed in the OVAL sandbox</note>
+        <note>This is based on the experimental Cisco IOS ACL test schema in the OVAL sandbox</note>
       </notes>
       <criteria operator="AND" comment="cisco acl ios test">
         <criterion test_ref="oval:org.mitre.oval:tst:10"/>
