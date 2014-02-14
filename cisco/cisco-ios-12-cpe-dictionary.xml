@@ -13,5 +13,6 @@
         <notes>
             <note>Test CPE list</note>
         </notes>
+        <check system="http://oval.mitre.org/XMLSchema/oval-defintions-5" href="cisco-ios-cpe-oval.xml">oval:org.mitre.oval:def:1001</check>
     </cpe-item>
 </cpe-list>
